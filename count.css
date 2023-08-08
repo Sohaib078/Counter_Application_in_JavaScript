@@ -1,0 +1,15 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(39, 13, 63);
+}
+#counter-container{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: teal;
+    border-radius: 5px;
+    margin-top: 15rem;
+    text-decoration: double;
+}
+

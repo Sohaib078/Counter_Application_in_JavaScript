@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="count.css">
+        <title>
+            Click Me!
+        </title>
+    </head>
+    <body>
+        <div id="counter-container">
+<p id="count">0</p>
+<button onclick="increment()">Click Me</button>
+
+
+<script>
+function increment() {
+  var count = document.getElementById("count");
+  count.innerHTML = parseInt(count.innerHTML) + 1;
+}
+</script>
+    </body>
+</html>
